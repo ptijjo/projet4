@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="Default">
+<html lang="fr">
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta name="robots" content="index, follow">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
@@ -18,7 +19,7 @@
 	<script src="./js/blocs.min.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
-    <title>page2</title>
+    <title>Agence La Panthère - Agence de web design basée sur Lyon - Création de site web</title>
 
     
 <!-- Analytics -->
@@ -43,12 +44,7 @@
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="index.html">Accueil</a>
-					</li>
-					<li>
-					</li>
-					<li>
-						<a href="page2.html">page2 &gt;</a>
+						<a rel="prev" href="index.html">Accueil</a>
 					</li>
 				</ul>
 			</div>
@@ -82,22 +78,22 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
+						<label for="nom-complet">
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input id="name" name="nom-complet" type="text" class="form-control" placeholder="Ex : Alexandre DUVAL" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="mail">
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input id="email" class="form-control form-control--mail" name="mail" type="email" required placeholder="Ex : A.duval@nono.com"/>
 					</div>
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" type="text" required id="input_504" />
 					</div>
 					<div class="form-group">
 						<label>
