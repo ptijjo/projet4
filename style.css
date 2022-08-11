@@ -535,8 +535,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
-    z-index: 500;
+    z-index: 1;
     transition: all .3s ease-in-out;
 }
 
@@ -551,8 +550,9 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    display: flex;
     text-align: center;
+    justify-content: center;
     
 }
 
@@ -869,8 +869,12 @@ h4 {
     flex-direction: column;
 }
 
+.image-resize-mode{
+    width: 100px;
+}
 
-/*@media (max-width: 1024px) {
+
+@media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
@@ -882,7 +886,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-}*/
+}
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {

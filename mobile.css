@@ -142,5 +142,50 @@
     .img-responsive{
         width: 320px;
     }
+
+    .tc-white{
+        color: #fffdfe!important;
+    }
+
+    .btn-atomic-tangerine {
+        color: #232323FF!important;
+    }
+    .btn-atomic-tangerine:hover {        
+        color: #000000FF!important;
+    }
+
+    .white{
+        color: #F1F1F1!important;
+    }
+
+    .white-to-black{
+        color: #000000FF!important;
+    }
+
+    .text-center{
+        color: #585858;
+    }
+    h2{
+        color:#545454;
+    }
+
+.col-sm-4{
+    color: #232323;
+}
+
+.ltc-white:hover {
+    color: #E1E1E1FF!important;
+}
+
+.d-bloc a .icon-md{
+    color: #232323FF;
+}
+.d-bloc a .icon-md:hover{
+    color: #424242FF;
+ }
+ .lien-noir{
+    color: #232323;
+}
+
 }
 
