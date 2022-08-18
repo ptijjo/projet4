@@ -525,7 +525,6 @@ button {
 }
 
 .form-control--mail:invalid{
-    background-color: #F3976C;
     border: 2px solid #F3976C;
 }
 
